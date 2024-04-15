@@ -29,8 +29,13 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/category" className="nav-link ">
-                  Category
+                <NavLink to="/men" className="nav-link ">
+                  Men
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/women" className="nav-link ">
+                  Women
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -45,7 +50,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink to="/cart" className="nav-link">
-                  Cart (0)
+                  Cart 🛒 
                 </NavLink>
               </li>
             </ul>
